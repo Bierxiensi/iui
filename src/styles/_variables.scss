@@ -1,0 +1,100 @@
+// 中性颜色
+$white: #fff !default;
+$gray-1: #fafafa !default;
+$gray-2: #f5f5f5 !default;
+$gray-3: #f0f0f0 !default;
+$gray-4: #d9d9d9 !default;
+$gray-5: #bfbfbf !default;
+$gray-6: #8c8c8c !default;
+$gray-7: #595959 !default;
+$gray-8: #434343 !default;
+$gray-9: #343a40 !default;
+$gray-10: #262626 !default;
+$gray-11: #1f1f1f !default;
+$gray-12: #141414 !default;
+$black: #000 !default;
+
+// 基础颜色
+$blue_color: #0d6efd !default;
+$indigo_color: #6610f2 !default;
+$purple_color: #6f42c1 !default;
+$pink_color: #e83e8c !default;
+$red_color: #dc3545 !default;
+$orange_color: #fd7e14 !default;
+$yellow_color: #fadb14 !default;
+$green_color: #52c41a !default;
+$teal_color: #20c997 !default;
+$cyan_color: #17a2b8 !default;
+
+// 系统色板
+$main_color: $gray-2 !default;
+$primary_color: $blue_color !default;
+$secondary_color: $gray-6 !default;
+$success_color: $green_color !default;
+$info_color: $cyan_color !default;
+$warning_color: $yellow_color !default;
+$danger_color: $red_color !default;
+$light_color: $gray-1 !default;
+$dark_color: $gray-9 !default;
+
+
+// 渐变
+$orange-liner: linear-gradient(to right,#fe9365,#feb798);
+$green-liner: linear-gradient(to right,#0ac282,#0df3a3);
+$red-liner: linear-gradient(to right,#fe5d70,#fe909d);
+$blue-liner: linear-gradient(to right,#01a9ac,#01dbdf);
+
+// 字体
+$font-family-sans-serif: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+$font-family-monospace: SFM-Regular, Menlo, Monaco, Consolas;
+$font-family-base: $font-family-sans-serif !default;
+
+// 字体大小
+$font-size-base: 1rem !default; // Assumes browser default value <common: 16px>
+$font-size-lg: $font-family-base * 1.25 !default;
+$font-size-sm: $font-family-base * .875 !default;
+
+// 字重
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+$font-weight-base: $font-weight-normal !default;
+
+// 行高
+$line-height-base: 1.5 !default;
+$line-height-lg: 2 !default;
+$line-height-sm: 1.25 !default;
+
+// 标题大小
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;
+
+// 链接
+
+
+
+// 其他
+// $main_color: #f6f7fb !default;
+// $primary_color: #007bff !default;
+// $secondary_color: #6c757d !default;
+// $success_color: #28a745 !default;
+// $info_color: #17a2b8 !default;
+// $warning_color: #ffc107 !default;
+// $danger_color: #dc3545 !default;
+// $light_color: #f8f9fa !default;
+// $dark_color: #343a40 !default;
+// $blue_color: #007bff;
+// $yellow_color: #ffc107;
+// $green_color: #28a745;
+// $gray_color: #6c757d;
+// $gray-dark_color: #343a40;
+// $background-color: #404E67;
+
+// 角度
+$rectangle: 0;
